@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
 			break;
 		case R.id.BtnHandling:
 			Log.w("BtnHandling", "BtnHandling");
+			startActivity(new Intent(MainActivity.this, ButtonHandlingActivity.class));
 			break;
 		}
 		return super.onOptionsItemSelected(item);
