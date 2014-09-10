@@ -1,0 +1,11 @@
+<resources>
+
+    <string-array name="Descriptions">
+        <item>@string/Android</item>
+        <item>@string/Ios</item>
+        <item>@string/WindowsPhone</item>
+        <item>@string/BlackBerry</item>
+        <item>@string/UbuntuPhone</item>
+    </string-array>
+
+</resources>
