@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class DescriptionFragment extends Fragment {
-	final String indexStateKey = "Index";
+	final static String indexStateKey = "Index";
 	final int indexDefaultValue = 0;
 	TextView txtDescription;
 	String[] descriptionsArray;

@@ -30,10 +30,11 @@ public class MainActivity extends Activity {
 			startActivity(new Intent(MainActivity.this, SplitActivity.class));
 			break;
 		case R.id.SeparateActivities:
-			Log.w("Split", "Split");
+			Log.w("SeparateActivities", "SeparateActivities");
+			startActivity(new Intent(MainActivity.this, SeparateActivity1.class));
 			break;
 		case R.id.BtnHandling:
-			Log.w("Split", "Split");
+			Log.w("BtnHandling", "BtnHandling");
 			break;
 		}
 		return super.onOptionsItemSelected(item);

@@ -26,6 +26,14 @@
             android:name="com.example.coursefragments.SplitActivity"
             android:label="@string/title_activity_split" >
         </activity>
+        <activity
+            android:name="com.example.coursefragments.SeparateActivity1"
+            android:label="@string/title_activity_separate_activity1" >
+        </activity>
+        <activity
+            android:name="com.example.coursefragments.SeparateActivity2"
+            android:label="@string/title_activity_separate_activity2" >
+        </activity>
     </application>
 
 </manifest>
